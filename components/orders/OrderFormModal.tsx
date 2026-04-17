@@ -23,7 +23,7 @@ type OrderFormModalProps = {
     author: string;
     text: string;
   }[];
-  fileInputRef: RefObject<HTMLInputElement | null>;
+  fileInputRef: RefObject<HTMLInputElement>;
   canEditOrderTextFields: boolean;
   canEditItemMainFields: boolean;
   canImportItems: boolean;
