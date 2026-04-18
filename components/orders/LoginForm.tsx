@@ -42,7 +42,7 @@ export function LoginForm({
                 type="email"
                 value={loginForm.login}
                 onChange={(e) => setLoginForm({ ...loginForm, login: e.target.value })}
-                className="w-full rounded-2xl border border-slate-200 bg-slate-50/70 px-4 py-3 text-sm outline-none focus:border-slate-400 focus:bg-white"
+                className="w-full rounded-2xl border border-slate-200 bg-slate-50/70 px-4 py-3 text-sm text-slate-900 outline-none focus:border-slate-400 focus:bg-white"
               />
             </div>
 
@@ -54,7 +54,7 @@ export function LoginForm({
                 type="password"
                 value={loginForm.password}
                 onChange={(e) => setLoginForm({ ...loginForm, password: e.target.value })}
-                className="w-full rounded-2xl border border-slate-200 bg-slate-50/70 px-4 py-3 text-sm outline-none focus:border-slate-400 focus:bg-white"
+                className="w-full rounded-2xl border border-slate-200 bg-slate-50/70 px-4 py-3 text-sm text-slate-900 outline-none focus:border-slate-400 focus:bg-white"
                 onKeyDown={(e) => {
                   if (e.key === "Enter") {
                     onLogin();
